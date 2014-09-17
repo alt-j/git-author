@@ -1,0 +1,24 @@
+{
+  "author": "Andrey Morozov <alt-j@yandex-team.ru>",
+  "description": "Set tag @author for files using the git blame",
+  "name": "git-author",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alt-j/git-author.git"
+  },
+  "dependencies": {
+    "commander": "2.3.0",
+    "vow": "0.4.5",
+    "vow-fs": "0.3.2"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alt-j/git-author/blob/master/LICENSE"
+    }
+  ],
+  "bin": {
+    "git-author": "bin/git-author"
+  }
+}
